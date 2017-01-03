@@ -15,6 +15,8 @@
 		CE5614731E1B9803001E8FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5614711E1B9803001E8FA7 /* LaunchScreen.storyboard */; };
 		CE56147E1E1B9803001E8FA7 /* YPPickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56147D1E1B9803001E8FA7 /* YPPickerDemoTests.m */; };
 		CE5614891E1B9803001E8FA7 /* YPPickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5614881E1B9803001E8FA7 /* YPPickerDemoUITests.m */; };
+		CE5614991E1B98B7001E8FA7 /* PickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5614981E1B98B7001E8FA7 /* PickerView.m */; };
+		CE56149B1E1B98E0001E8FA7 /* city_json.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE56149A1E1B98E0001E8FA7 /* city_json.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		CE5614841E1B9803001E8FA7 /* YPPickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPPickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5614881E1B9803001E8FA7 /* YPPickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPPickerDemoUITests.m; sourceTree = "<group>"; };
 		CE56148A1E1B9803001E8FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5614971E1B98B7001E8FA7 /* PickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerView.h; sourceTree = "<group>"; };
+		CE5614981E1B98B7001E8FA7 /* PickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerView.m; sourceTree = "<group>"; };
+		CE56149A1E1B98E0001E8FA7 /* city_json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = city_json.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		CE5614571E1B9803001E8FA7 = {
 			isa = PBXGroup;
 			children = (
+				CE5614961E1B98B7001E8FA7 /* YPPicker */,
 				CE5614621E1B9803001E8FA7 /* YPPickerDemo */,
 				CE56147C1E1B9803001E8FA7 /* YPPickerDemoTests */,
 				CE5614871E1B9803001E8FA7 /* YPPickerDemoUITests */,
@@ -101,6 +107,7 @@
 		CE5614621E1B9803001E8FA7 /* YPPickerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE56149A1E1B98E0001E8FA7 /* city_json.txt */,
 				CE5614661E1B9803001E8FA7 /* AppDelegate.h */,
 				CE5614671E1B9803001E8FA7 /* AppDelegate.m */,
 				CE5614691E1B9803001E8FA7 /* ViewController.h */,
@@ -138,6 +145,15 @@
 				CE56148A1E1B9803001E8FA7 /* Info.plist */,
 			);
 			path = YPPickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		CE5614961E1B98B7001E8FA7 /* YPPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CE5614971E1B98B7001E8FA7 /* PickerView.h */,
+				CE5614981E1B98B7001E8FA7 /* PickerView.m */,
+			);
+			path = YPPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5614731E1B9803001E8FA7 /* LaunchScreen.storyboard in Resources */,
+				CE56149B1E1B98E0001E8FA7 /* city_json.txt in Resources */,
 				CE5614701E1B9803001E8FA7 /* Assets.xcassets in Resources */,
 				CE56146E1E1B9803001E8FA7 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5614991E1B98B7001E8FA7 /* PickerView.m in Sources */,
 				CE56146B1E1B9803001E8FA7 /* ViewController.m in Sources */,
 				CE5614681E1B9803001E8FA7 /* AppDelegate.m in Sources */,
 				CE5614651E1B9803001E8FA7 /* main.m in Sources */,
