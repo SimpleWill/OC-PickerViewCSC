@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5614651E1B9803001E8FA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5614641E1B9803001E8FA7 /* main.m */; };
+		CE5614681E1B9803001E8FA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5614671E1B9803001E8FA7 /* AppDelegate.m */; };
+		CE56146B1E1B9803001E8FA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56146A1E1B9803001E8FA7 /* ViewController.m */; };
+		CE56146E1E1B9803001E8FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE56146C1E1B9803001E8FA7 /* Main.storyboard */; };
+		CE5614701E1B9803001E8FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE56146F1E1B9803001E8FA7 /* Assets.xcassets */; };
+		CE5614731E1B9803001E8FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5614711E1B9803001E8FA7 /* LaunchScreen.storyboard */; };
+		CE56147E1E1B9803001E8FA7 /* YPPickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56147D1E1B9803001E8FA7 /* YPPickerDemoTests.m */; };
+		CE5614891E1B9803001E8FA7 /* YPPickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5614881E1B9803001E8FA7 /* YPPickerDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE56147A1E1B9803001E8FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5614581E1B9803001E8FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE56145F1E1B9803001E8FA7;
+			remoteInfo = YPPickerDemo;
+		};
+		CE5614851E1B9803001E8FA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5614581E1B9803001E8FA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE56145F1E1B9803001E8FA7;
+			remoteInfo = YPPickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE5614601E1B9803001E8FA7 /* YPPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YPPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5614641E1B9803001E8FA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE5614661E1B9803001E8FA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE5614671E1B9803001E8FA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE5614691E1B9803001E8FA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE56146A1E1B9803001E8FA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE56146D1E1B9803001E8FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE56146F1E1B9803001E8FA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE5614721E1B9803001E8FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE5614741E1B9803001E8FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5614791E1B9803001E8FA7 /* YPPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE56147D1E1B9803001E8FA7 /* YPPickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPPickerDemoTests.m; sourceTree = "<group>"; };
+		CE56147F1E1B9803001E8FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5614841E1B9803001E8FA7 /* YPPickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPPickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5614881E1B9803001E8FA7 /* YPPickerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YPPickerDemoUITests.m; sourceTree = "<group>"; };
+		CE56148A1E1B9803001E8FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE56145D1E1B9803001E8FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5614761E1B9803001E8FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5614811E1B9803001E8FA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5614571E1B9803001E8FA7 = {
+			isa = PBXGroup;
+			children = (
+				CE5614621E1B9803001E8FA7 /* YPPickerDemo */,
+				CE56147C1E1B9803001E8FA7 /* YPPickerDemoTests */,
+				CE5614871E1B9803001E8FA7 /* YPPickerDemoUITests */,
+				CE5614611E1B9803001E8FA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE5614611E1B9803001E8FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5614601E1B9803001E8FA7 /* YPPickerDemo.app */,
+				CE5614791E1B9803001E8FA7 /* YPPickerDemoTests.xctest */,
+				CE5614841E1B9803001E8FA7 /* YPPickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5614621E1B9803001E8FA7 /* YPPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE5614661E1B9803001E8FA7 /* AppDelegate.h */,
+				CE5614671E1B9803001E8FA7 /* AppDelegate.m */,
+				CE5614691E1B9803001E8FA7 /* ViewController.h */,
+				CE56146A1E1B9803001E8FA7 /* ViewController.m */,
+				CE56146C1E1B9803001E8FA7 /* Main.storyboard */,
+				CE56146F1E1B9803001E8FA7 /* Assets.xcassets */,
+				CE5614711E1B9803001E8FA7 /* LaunchScreen.storyboard */,
+				CE5614741E1B9803001E8FA7 /* Info.plist */,
+				CE5614631E1B9803001E8FA7 /* Supporting Files */,
+			);
+			path = YPPickerDemo;
+			sourceTree = "<group>";
+		};
+		CE5614631E1B9803001E8FA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE5614641E1B9803001E8FA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE56147C1E1B9803001E8FA7 /* YPPickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE56147D1E1B9803001E8FA7 /* YPPickerDemoTests.m */,
+				CE56147F1E1B9803001E8FA7 /* Info.plist */,
+			);
+			path = YPPickerDemoTests;
+			sourceTree = "<group>";
+		};
+		CE5614871E1B9803001E8FA7 /* YPPickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE5614881E1B9803001E8FA7 /* YPPickerDemoUITests.m */,
+				CE56148A1E1B9803001E8FA7 /* Info.plist */,
+			);
+			path = YPPickerDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE56145F1E1B9803001E8FA7 /* YPPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE56148D1E1B9803001E8FA7 /* Build configuration list for PBXNativeTarget "YPPickerDemo" */;
+			buildPhases = (
+				CE56145C1E1B9803001E8FA7 /* Sources */,
+				CE56145D1E1B9803001E8FA7 /* Frameworks */,
+				CE56145E1E1B9803001E8FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YPPickerDemo;
+			productName = YPPickerDemo;
+			productReference = CE5614601E1B9803001E8FA7 /* YPPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE5614781E1B9803001E8FA7 /* YPPickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5614901E1B9803001E8FA7 /* Build configuration list for PBXNativeTarget "YPPickerDemoTests" */;
+			buildPhases = (
+				CE5614751E1B9803001E8FA7 /* Sources */,
+				CE5614761E1B9803001E8FA7 /* Frameworks */,
+				CE5614771E1B9803001E8FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE56147B1E1B9803001E8FA7 /* PBXTargetDependency */,
+			);
+			name = YPPickerDemoTests;
+			productName = YPPickerDemoTests;
+			productReference = CE5614791E1B9803001E8FA7 /* YPPickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE5614831E1B9803001E8FA7 /* YPPickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5614931E1B9803001E8FA7 /* Build configuration list for PBXNativeTarget "YPPickerDemoUITests" */;
+			buildPhases = (
+				CE5614801E1B9803001E8FA7 /* Sources */,
+				CE5614811E1B9803001E8FA7 /* Frameworks */,
+				CE5614821E1B9803001E8FA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE5614861E1B9803001E8FA7 /* PBXTargetDependency */,
+			);
+			name = YPPickerDemoUITests;
+			productName = YPPickerDemoUITests;
+			productReference = CE5614841E1B9803001E8FA7 /* YPPickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5614581E1B9803001E8FA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = personal;
+				TargetAttributes = {
+					CE56145F1E1B9803001E8FA7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CE5614781E1B9803001E8FA7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE56145F1E1B9803001E8FA7;
+					};
+					CE5614831E1B9803001E8FA7 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE56145F1E1B9803001E8FA7;
+					};
+				};
+			};
+			buildConfigurationList = CE56145B1E1B9803001E8FA7 /* Build configuration list for PBXProject "YPPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE5614571E1B9803001E8FA7;
+			productRefGroup = CE5614611E1B9803001E8FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE56145F1E1B9803001E8FA7 /* YPPickerDemo */,
+				CE5614781E1B9803001E8FA7 /* YPPickerDemoTests */,
+				CE5614831E1B9803001E8FA7 /* YPPickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE56145E1E1B9803001E8FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5614731E1B9803001E8FA7 /* LaunchScreen.storyboard in Resources */,
+				CE5614701E1B9803001E8FA7 /* Assets.xcassets in Resources */,
+				CE56146E1E1B9803001E8FA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5614771E1B9803001E8FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5614821E1B9803001E8FA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE56145C1E1B9803001E8FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE56146B1E1B9803001E8FA7 /* ViewController.m in Sources */,
+				CE5614681E1B9803001E8FA7 /* AppDelegate.m in Sources */,
+				CE5614651E1B9803001E8FA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5614751E1B9803001E8FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE56147E1E1B9803001E8FA7 /* YPPickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5614801E1B9803001E8FA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5614891E1B9803001E8FA7 /* YPPickerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE56147B1E1B9803001E8FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE56145F1E1B9803001E8FA7 /* YPPickerDemo */;
+			targetProxy = CE56147A1E1B9803001E8FA7 /* PBXContainerItemProxy */;
+		};
+		CE5614861E1B9803001E8FA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE56145F1E1B9803001E8FA7 /* YPPickerDemo */;
+			targetProxy = CE5614851E1B9803001E8FA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE56146C1E1B9803001E8FA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE56146D1E1B9803001E8FA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE5614711E1B9803001E8FA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5614721E1B9803001E8FA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE56148B1E1B9803001E8FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE56148C1E1B9803001E8FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE56148E1E1B9803001E8FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YPPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biukia.YPPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE56148F1E1B9803001E8FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YPPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biukia.YPPickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE5614911E1B9803001E8FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YPPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biukia.YPPickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPPickerDemo.app/YPPickerDemo";
+			};
+			name = Debug;
+		};
+		CE5614921E1B9803001E8FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YPPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biukia.YPPickerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YPPickerDemo.app/YPPickerDemo";
+			};
+			name = Release;
+		};
+		CE5614941E1B9803001E8FA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YPPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biukia.YPPickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YPPickerDemo;
+			};
+			name = Debug;
+		};
+		CE5614951E1B9803001E8FA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YPPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biukia.YPPickerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YPPickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE56145B1E1B9803001E8FA7 /* Build configuration list for PBXProject "YPPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE56148B1E1B9803001E8FA7 /* Debug */,
+				CE56148C1E1B9803001E8FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE56148D1E1B9803001E8FA7 /* Build configuration list for PBXNativeTarget "YPPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE56148E1E1B9803001E8FA7 /* Debug */,
+				CE56148F1E1B9803001E8FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE5614901E1B9803001E8FA7 /* Build configuration list for PBXNativeTarget "YPPickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5614911E1B9803001E8FA7 /* Debug */,
+				CE5614921E1B9803001E8FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE5614931E1B9803001E8FA7 /* Build configuration list for PBXNativeTarget "YPPickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5614941E1B9803001E8FA7 /* Debug */,
+				CE5614951E1B9803001E8FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE5614581E1B9803001E8FA7 /* Project object */;
+}
